@@ -1,0 +1,4 @@
+UPDATE 'wp_posts' 
+SET  'post_status' =  'publish' 
+WHERE  'post_status' =  'draft'
+AND  'post_type' =  'product_variation';
